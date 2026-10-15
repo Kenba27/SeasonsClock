@@ -1,0 +1,17 @@
+# So thang trong 1 mua va so ngay trong 1 thang.
+# Voi season-duration: 60 (phut) cua SeasonsPlus: 1 mua = 3 thang x 30 ngay = 90 ngay
+# => 1 ngay trong game = 40 giay that.
+months-per-season: 3
+days-per-month: 30
+
+# Nam bat dau khi cai plugin lan dau
+start-year: 1
+
+# Dinh dang cho %seasonclock_date%
+date-format: "{day}/{month}/{year}"
+
+# true = doi mua dung gio (SeasonsPlus chi kiem tra moi 60 giay nen co the tre toi 60 giay)
+exact-season-change: true
+
+# true = khi restart server, giu nguyen thoi gian da troi qua trong mua hien tai
+keep-progress-on-restart: true
